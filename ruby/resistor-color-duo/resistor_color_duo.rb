@@ -12,9 +12,9 @@ class ResistorColorDuo
 
   class << self
     def value(colors)
-      colors.map do |color|
+      colors.first(2).map do |color|
         color_value(color)
-      end.first(2).join.to_i
+      end.join.to_i
     end
 
     private
