@@ -6,7 +6,7 @@ To get started with TDD, see the `README.md` file in your
 `ruby/twelve-days` directory.
 =end
 
-class TwelveDays
+module TwelveDays
   GIFTS = [['twelfth', 'twelve Drummers Drumming,'],
            ['eleventh', 'eleven Pipers Piping,'],
            ['tenth', 'ten Lords-a-Leaping,'],
